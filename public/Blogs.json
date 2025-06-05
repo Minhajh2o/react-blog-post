@@ -1,0 +1,70 @@
+[
+  {
+    "id": 1,
+    "banner": "https://i.ibb.co/7N8R6ZcY/2.png",
+    "title": "The Future of Web Development: Trends You Should Know",
+    "details": "Explore how modern frameworks, performance optimizations, and accessibility standards are shaping the future of web development.",
+    "author": {
+      "profile_img": "https://i.ibb.co/67hHqj5s/boy1.png",
+      "name": "Raihan A.",
+      "published_date": {
+        "date": 12,
+        "month": "November",
+        "year": 2024
+      },
+      "reading_time": 5
+    },
+    "hashtags": ["#WebDevelopment", "#Frontend", "#Trends"]
+  },
+  {
+    "id": 2,
+    "banner": "https://i.ibb.co/ycymSMsz/1.jpg",
+    "title": "Mastering JavaScript: From Fundamentals to Advanced",
+    "details": "This guide walks you through JavaScript essentials — variables, functions, objects — and dives into ES6+ features and async programming.",
+    "author": {
+      "profile_img": "https://i.ibb.co/cSmTYX6J/boy2.jpg",
+      "name": "Muntasir M.",
+      "published_date": {
+        "date": 5,
+        "month": "January",
+        "year": 2025
+      },
+      "reading_time": 8
+    },
+    "hashtags": ["#JavaScript", "#ES6", "#Async"]
+  },
+  {
+    "id": 3,
+    "banner": "https://i.ibb.co/tMVRQ2D3/3.png",
+    "title": "Why React Remains a Developer Favorite in 2025",
+    "details": "React’s component-based architecture, hooks, and large ecosystem make it the go-to choice for building scalable UI in modern applications.",
+    "author": {
+      "profile_img": "https://i.ibb.co/39jxnj5R/girl1.jpg",
+      "name": "Rifah T.",
+      "published_date": {
+        "date": 22,
+        "month": "March",
+        "year": 2025
+      },
+      "reading_time": 6
+    },
+    "hashtags": ["#React", "#JavaScript", "#Frontend"]
+  },
+  {
+    "id": 4,
+    "banner": "https://i.ibb.co/23M0LPzt/4.jpg",
+    "title": "Top 10 Free Resources to Learn Web Development",
+    "details": "From documentation to interactive platforms, discover the best free tools and websites to kickstart your journey into web development.",
+    "author": {
+      "profile_img": "https://i.ibb.co/MxryF8j3/girl2.jpg",
+      "name": "Anika H.",
+      "published_date": {
+        "date": 10,
+        "month": "April",
+        "year": 2025
+      },
+      "reading_time": 4
+    },
+    "hashtags": ["#FreeResources", "#Learning", "#WebDev"]
+  }
+]
