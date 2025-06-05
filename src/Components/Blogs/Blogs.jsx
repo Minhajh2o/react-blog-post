@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Blog from "../Blog/Blog";
 
-const Blogs = ({ addBookmark }) => {
+const Blogs = ({ addBookmark, addReadingTime }) => {
   const [blogs, setBlogs] = useState([]);
 
   useEffect(() => {
@@ -13,17 +13,19 @@ const Blogs = ({ addBookmark }) => {
 
   return (
     <div className="w-2/3">
-      <h1>Blogs</h1>
-      <p>
-        Welcome to the Blogs section! Here you will find a collection of
-        articles and posts on various topics.
+      <h1 className="text-3xl font-bold mb-2">Blogs</h1>
+      <p className="text-gray-700 mb-4">
+        Explore insightful articles on web development, covering the latest
+        frameworks, best practices, and tips to help you build modern,
+        responsive, and efficient web applications.
       </p>
       {blogs.map((blog) => (
-        <Blog 
-        key={blog.id} 
-        blog={blog}
-        addBookmark={addBookmark}
-      />
+        <Blog
+          key={blog.id}
+          blog={blog}
+          addBookmark={addBookmark}
+          addReadingTime={addReadingTime}
+        />
       ))}
     </div>
   );
